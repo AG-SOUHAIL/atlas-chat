@@ -1,0 +1,40 @@
+.US-C{
+    display: flex;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    margin: 10px;
+    width: 80%;
+    max-width: 350px;
+}
+
+.USR-C{
+    position: absolute;
+    top: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: var(--container-1);
+    border-radius: 5px;
+    padding: 15px;
+    width: 310px;
+    margin: 5px;
+}
+
+.USR-I-C{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.USR-I-C p{
+    color: var(--primary-text);
+    font-size: 17px;
+    margin: 0;
+}
+
+.USR-I-C p:nth-child(2){
+    color: var(--seconde-text);
+    font-size: 12px;
+}

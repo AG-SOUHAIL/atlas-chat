@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+:root{
+  --background-color: #000000;
+  --container-1: #353535;
+  --primary-text: #F5F7F8;
+  --seconde-text: #D8D9DA;
+  --button-color: #3498db;
+}
+
+[data-theme="light"]{
+  --background-color: #ebebeb;
+  --container-1: #ffffff;
+  --primary-text: #0F0F0F;
+  --seconde-text: #3d3d3d;
+  --button-color: #3d7cd3;
+}
+
+[data-theme="purple"]{
+  --background-color: #2D033B;
+  --container-1: #810CA8;
+  --primary-text: #E5B8F4;
+  --seconde-text: #C147E9;
+  --button-color: rgb(60, 48, 64);
+}
+
+*{
+  font-family: 'Cairo';
+  /* user-select: none; */
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--container-1);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--button-color);
+  border-radius: 6px;
+  border: 3px solid var(--container-1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--seconde-text);
+}
+
+/* body {
+  overflow: hidden;
+} */
+
+/* Add this rule to show the scrollbar after the animation is complete */
+body.aos-animate {
+  overflow: auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes popUp {
+  from {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

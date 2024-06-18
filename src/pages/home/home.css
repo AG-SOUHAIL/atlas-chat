@@ -1,0 +1,68 @@
+.H-C{
+    min-height: 200vh;  height: fit-content;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--primary-text);
+    display: flex;
+}
+
+.M-C{
+    min-height: 100vh;  height: fit-content;
+    flex: 1.1;
+    border-style: bold;
+    border-color: black;
+}
+
+.IB-C{
+    width: 100%;    height: 100px;
+    background-color: var(--container-1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conv{
+    flex: 4;
+}
+
+.ACD-C{
+    display: flex;
+    flex-direction: column;
+}
+
+.CD-C{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: var(--container-1);
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.CD-I-C{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 15px;
+}
+
+.CD-I-C p{
+    color: var(--primary-text);
+    font-size: 17px;
+    margin: 0;
+}
+
+.CD-I-C p:nth-child(2){
+    color: var(--seconde-text);
+    font-size: 12px;
+}
+
+.C{
+    display: flex;
+}
+
+
+  
